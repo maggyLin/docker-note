@@ -1,0 +1,8 @@
+D:\code\docker-note\webSample\aspEx2\aspEx2\obj\Release\net6.0\aspEx2.csproj.AssemblyReference.cache
+D:\code\docker-note\webSample\aspEx2\aspEx2\obj\Release\net6.0\aspEx2.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\docker-note\webSample\aspEx2\aspEx2\obj\Release\net6.0\aspEx2.AssemblyInfoInputs.cache
+D:\code\docker-note\webSample\aspEx2\aspEx2\obj\Release\net6.0\aspEx2.AssemblyInfo.cs
+D:\code\docker-note\webSample\aspEx2\aspEx2\obj\Release\net6.0\aspEx2.csproj.CoreCompileInputs.cache
+D:\code\docker-note\webSample\aspEx2\aspEx2\obj\Release\net6.0\aspEx2.MvcApplicationPartsAssemblyInfo.cache
+D:\code\docker-note\webSample\aspEx2\aspEx2\obj\Release\net6.0\aspEx2.RazorAssemblyInfo.cache
+D:\code\docker-note\webSample\aspEx2\aspEx2\obj\Release\net6.0\aspEx2.RazorAssemblyInfo.cs
