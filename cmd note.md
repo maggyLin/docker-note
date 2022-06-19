@@ -8,7 +8,7 @@
 - docker inspect [containerName] : container 完整訊息
 - docker start / stop [containerName] :  開啟 / 停止 container
 
-## docker RUN (會直接pu本地沒有的image下來)
+## docker RUN (會直接pull本地沒有的image下來)
 - docker run -it -p 8000:80 --name aspnetcore_sample mcr.microsoft.com/dotnet/samples:aspnetapp
 ```
 -i：attach時鍵盤輸入會被Container接手
