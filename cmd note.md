@@ -35,11 +35,18 @@ docker commit -m "mcr.microsoft.com/dotnet/samples:aspnetapp test" [containerNam
 docker commit -m "mcr.microsoft.com/dotnet/samples:aspnetapp test" aspnetcore_sample testimage
 ```
 -m : 說明
-*NewImageName 最好指定跟docker hub Repository 相同,前面要帶 ID (EX:maggylin/test),不然push時候要另外指定一個tag
+*NewImageName 最好指定跟docker hub Repository 相同,前面要帶 ID (EX:maggylin/test),不然push時候要另外指定一個tag(如下說明)
 ```
 
 ## PUSH Docker Hub
 1. docker login : 確認docker hub login   
 2. docker push [hubName/repositoryName] => docker push maggylin/test   
-3. 如果 image 名稱不等於[hubName/repositoryName] , 使用docker tag [imageName] [humName] =>docker tag test username/test   
+3. 如果 image 名稱不等於[hubName/repositoryName] , 使用docker tag [imageName] [humName] =>docker tag test maggylin/test   
 4. 確認Doker Hub 有這個repository   
+
+
+### image打包到本地
+> docker save [imageName] [fileName] => docker save test > test.tar
+
+### 本地匯入image
+> docker load --input test.tar
